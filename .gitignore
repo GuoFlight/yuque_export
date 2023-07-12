@@ -2,3 +2,6 @@
 configDev.toml
 test
 output
+build
+main
+build/yuque_export
