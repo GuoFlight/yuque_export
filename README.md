@@ -26,7 +26,7 @@ Mac运行步骤：
 1. 从这里下载适合你的程序：https://github.com/GuoFlight/yuque_export/releases
 2. 从这里下载配置文件config.toml：https://github.com/GuoFlight/yuque_export
 3. 访问语雀，通过F12拿到cookie和x_csrf_token，保存到配置文件中。
-4. 运行程序
+4. 运行程序。
 
 ```shell
 vim config.toml
@@ -42,7 +42,7 @@ windows使用步骤：
 1. 在此页面下载适合自己系统的二进制程序：https://github.com/GuoFlight/yuque_export/releases
 2. 在此页面下载配置文件config.toml：https://github.com/GuoFlight/yuque_export
 3. 在配置文件中更新cookie和x_csrf_token配置。（这两个配置可以通过语雀页面按下F12拿到）
-4. 方法1：双击二进制程序(二进制程序和配置文件需要在同一目录下)。方法2：在cmd终端中，输入以下命令，即可将所有笔记下载到output目录下：yuque_export_win_amd64 -c config.toml
+4. 执行程序。方法1：双击二进制程序(二进制程序和配置文件需要在同一目录下)。方法2：在cmd终端中，输入以下命令，即可将所有笔记下载到output目录下：```yuque_export_win_amd64.exe -c config.toml```
 
 # 常见问题
 
